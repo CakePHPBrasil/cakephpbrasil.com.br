@@ -1,0 +1,48 @@
+[
+	{
+		"title" : "Cookbook 3.0",
+		"desc" : "Documentação oficial do CakePHP 3.0",
+		"link": "http://book.cakephp.org/3.0/en/index.html"
+	},
+	{
+		"title" : "Repositório de projetos CakePHP Brasil",
+		"desc" : "Repositório no GitHub com os projetos do CakePHP Brasil, você tambem pode iniciar o seu...",
+		"link": "https://github.com/CakePHPBrasil"
+	},
+	{
+		"title" : "CakePHP 3 e relacionamentos entre tabelas",
+		"desc" : "O artigo de número 100 não poderia deixar de ser sobre CakePHP, e desta vez quero falar um pouco sobre relacionamentos entre tabelas, um assunto que tira o sono de muita gente, vamos ver?",
+		"link": "http://www.webdevbr.com.br/blog/cakephp-3-e-relacionamentos-entre-tabelas/"
+	},
+	{
+		"title" : "CakePHP 3 — Acl Simples",
+		"desc" : "Segunda! Dia de artigo no Medium, esta semana estou falando sobre como requisitar as informações do usuário logado no CakePHP 3 e tomar decisões baseadas nisso, bons estudos.",
+		"link": "https://medium.com/@erikfigueiredo/cakephp-3-acl-simples-82fbbed3627"
+	},
+	{
+		"title" : "CakePHP 3 Query Builder",
+		"desc" : "Essa semana vou falar um pouco sobre o Query Builder do CakePHP 3, ele é excelente pra você abstrair a escrita de SQL, assim sempre que trocar o banco de dados ele vai gerar uma nova string compatível. ",
+		"link": "https://medium.com/@erikfigueiredo/cakephp-3-query-builder-a6651acb57ca"
+	},
+	{
+		"title" : "Organizando as configurações - Preparando para o Deploy - no CakePHP 3",
+		"desc" : "A primeira coisa que me irritou quando baixei a versão (ainda em beta) do CakePHP 3 é que agora as configurações ficam todas em um único arquivo. E se eu precisar configurar algo que deveria refletir no servidor de produção e localmente? Eu teria que editar o arquivo no servidor (que aqui é via SSH, sem FTP) ou criar uma rotina para identificar aonde estou (produção ou desenvolvimento), mas calma, tem uma solução melhor. ",
+		"link": "http://www.webdevbr.com.br/blog/organizando-as-configuracoes-preparando-para-o-deploy-no-cakephp-3/"
+	},
+	{
+		"title" : "Dicas para se atualizar sobre CakePHP 3",
+		"desc" : "Esse é o ponto, a transição, o momento! Então é isso, a partir deste momento o meu blog não terá mais novos conteúdos para a versão 2 do CakePHP e mesmo o que já existe será progressivamente atualizado para a nova versão. E como sempre anunciei os cursos no WebDevBr não terão nenhum custo adicional para quem adquiriu ou vai adquirir o atual na versão 2 do CakePHP, os cursos na versão 3 só serão publicados após a divulgação da versão estável, ok. E como não podia deixar de ser, vou passar umas dicas pra vocês que estão querendo dar uma conferida no que há de novo. ",
+		"link": "http://www.webdevbr.com.br/blog/dicas-para-se-atualizar-sobre-cakephp-3/"
+	},
+	{
+		"title" : "Como definir o debug habilitado para o servidor local e desabilitado para a hospedagem automaticamente.",
+		"desc" : "Este post está destinado a pessoas que vêm me perguntando se existe uma forma de o Cake identificar automaticamente se o servidor é o de desenvolvimento ou de produção, e configurar o debug automaticamente conforme o tipo de servidor.",
+		"link": "http://blog.cakephpbrasil.com.br/como-definir-o-debug-habilitado-para-o-servidor-local-e-desabilitado-para-a-hospedagem-automaticamente/"
+	},
+	{
+		"title" : "Mini curso CakePHP parte 1 , geração de código utilizando o bake e estrutura",
+		"desc" : "Ola pessoal, a o longo de 5 videos vamos conhecer o básico/intermediário sobre o framework CakePHP, o suficiente para criar aplicação de diversos tipos e tamanhos.",
+		"link": "http://blog.cakephpbrasil.com.br/mini-curso-cakephp-parte-1-geracao-de-codigo-utilizando-o-bake-e-estrutura/"
+	}
+
+]

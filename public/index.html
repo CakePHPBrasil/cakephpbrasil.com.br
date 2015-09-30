@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>CakePHP Brasil</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-controller="linksCtrl">
+	<center>
+		<img src="img/logo_g.png" alt="">
+		<hr>
+		<form class="form-inline">
+			<div class="input-group">
+				<div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
+				<input type="text" class="form-control input-lg" placeholder="O que você precisa?" ng-model="search">
+				<span class="input-group-btn">
+					<button class="btn btn-danger btn-lg" type="button">Buscar!</button>
+				</span>
+			</div>
+		</form>
+		<hr>
+	</center>
+	<section class="container" ng-show="showBox">
+		<div class="row">
+			<div class="col-md-12">
+				<center>
+					<p>Quer ver seu artigo aqui no nosso mural? <a href="https://github.com/CakePHPBrasil/cakephpbrasil.com.br">Veja como!</a> - Escreva no <a href="http://blog.cakephpbrasil.com.br/">Blog do CakePHP Brasil</a>.</p>
+				</center>
+			</div>
+		</div>
+		<div id="article-box" class="row" isotope>
+			<div class="col-md-3" ng-repeat="artigo in artigos | filter:search">
+				<div class="box13">
+					<h4><a href="" ng-href="{{ artigo.link }}" >{{ artigo.title }}</a></h4>
+					<p>{{ artigo.desc }}</p>
+					<p><a href="" ng-href="{{ artigo.link }}" class="btn btn-success">Ler o artigo</a></p>
+				    <div class="box13_corner_lf"></div>
+			        <div class="box13_corner_rt"></div>
+			        <div class="box13_ribbon"></div>    
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="js/script.js"></script>
+</body>
+</html>

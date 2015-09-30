@@ -1,0 +1,22 @@
+{
+  "name": "cakephpbrasil.com.br",
+  "version": "0.0.0",
+  "homepage": "https://github.com/WebDevBr/MinhaBox",
+  "authors": [
+    "Erik Figueiredo <falecom@erikfigueiredo.com.br>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#1.4.6",
+    "bootstrap-sass": "~3.3.5",
+    "isotope": "~2.2.2"
+  }
+}
