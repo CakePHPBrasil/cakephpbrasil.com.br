@@ -2,15 +2,9 @@
 
 ## Para adicionar um link
 
-Fork este repositório e adicione o seu pacote no final de arquivo `public/links.json` no seguinte formato.
+Vá até o [formulário de cadastro](http://www.cakephpbrasil.com.br/admin/add) e envie seu link, ele precisa ser aprovado antes de aparecer na página inicial.
 
-	{
-		"title" : "Título do artigo",
-		"desc" : "Uma breve descrição.",
-		"link": "link para seu artigo"
-	}
-
-Não esqueça de adicionar uma virgula no final do item anterior.
+[Clique aqui para cadastrar um artigo](http://www.cakephpbrasil.com.br/admin/add).
 
 ## Para ajudar com correções
 
@@ -33,4 +27,20 @@ Para manter o Gulp aguardando suas alterações (em vez de digital o comando aci
 
 O site está dentro do diretório public, você deve acessa-lo no navegador ou apontar o servidor para ele, não é possível ver a aplicação sem um servidor HTTP.
 
+## Servidor
 
+Para deixar o servidor funcional você precisa:
+
+Renomear o arquivo `.env.example` para `.env` e editar os dados de acesso ao banco de dados dentro dele.
+
+Criar um banco de dados e rodar o arquivo `dump.sql` para criar as tabelas.
+
+Instale as dependências com o `composer install`
+
+Para iniciar o servidor embutido do PHP rode o comando a baixo:
+
+	php server.php
+
+Dentro do diretório `server`.
+
+Prontinho!
