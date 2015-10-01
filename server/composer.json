@@ -10,7 +10,8 @@
         "symfony/twig-bridge": "^2.7",
         "symfony/translation": "^2.7",
         "symfony/config": "^2.7",
-        "respect/validation": "^0.9.3"
+        "respect/validation": "^0.9.3",
+        "monolog/monolog": "^1.17"
     },
     "require-dev": {
         "filp/whoops": "^1.1",
