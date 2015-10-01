@@ -43,6 +43,21 @@
 		"title" : "Mini curso CakePHP parte 1 , geração de código utilizando o bake e estrutura",
 		"desc" : "Ola pessoal, a o longo de 5 videos vamos conhecer o básico/intermediário sobre o framework CakePHP, o suficiente para criar aplicação de diversos tipos e tamanhos.",
 		"link": "http://blog.cakephpbrasil.com.br/mini-curso-cakephp-parte-1-geracao-de-codigo-utilizando-o-bake-e-estrutura/"
+	},
+	{
+		"title" : "Trabalhando com TREE (Árvores) no CakePHP",
+		"desc" : "O Tree (Árvore) do CakePHP é muito útil para criar Níveis e Sub Níveis hierárquicos",
+		"link": "http://greensolucoes.com/trabalhando-com-tree-arvore-cakephp/"
+	},
+	{
+		"title" : "CakePHP Convenções de Nomenclatura e o Poderoso Inflector!",
+		"desc" : "Saudações! Eu tenho regularmente problemas para encontrar os nomes corretos para os meus controllers,views, models e tabelas. E busco permanecer o projeto todo em inglês..",
+		"link": "http://greensolucoes.com/cakephp-convencoes-de-nomenclatura-e-o-poderoso-inflector/"
+	},
+	{
+		"title" : "Cake Bake no Console do Windows",
+		"desc" : "No tutorial de hoje vamos ver como utilizar o Cake Bake no CakePHP. Recentemente estive participando de um hangout sobre o CakePHP e foi abordado o tema Cake Bake.",
+		"link": "http://greensolucoes.com/cakephp-bake-console-windows/"
 	}
 
 ]
