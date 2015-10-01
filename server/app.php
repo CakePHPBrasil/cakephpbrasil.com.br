@@ -6,7 +6,8 @@ use Symfony\Component\HttpFoundation\Session\Session;
 
 $app->get('/', function() use ($app) {
 	$db = $app['db'];
-	$links = $db::table('links')->get();
+	$links = $db::table('links')->where('active', true)
+		->get();
 	return json_encode($links);
 });
 
